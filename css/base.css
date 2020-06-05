@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:auto;
+  width: 768px;
+}
+
+div {
+  border: 1px solid black;
+  background-color: rgb(228, 228, 228);
+}
+
+@media only screen and (min-width: 768px){
+  body {
+    margin: none;
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  body {
+    margin: none;
+    width: 1200px;
+  }
+}
+
+
